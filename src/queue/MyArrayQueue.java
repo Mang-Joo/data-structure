@@ -10,11 +10,6 @@ public class MyArrayQueue<E> {
         this.cursor = 0;
     }
 
-    private MyArrayQueue(Object[] queue, int cursor) {
-        this.queue = queue;
-        this.cursor = cursor;
-    }
-
     public void enQueue(E data) {
         if (data == null) {
             throw new IllegalArgumentException("Can not add null");
