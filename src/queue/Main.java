@@ -14,6 +14,16 @@ public class Main {
         System.out.println(stringMyArrayQueue.deQueue());
         System.out.println(stringMyArrayQueue.deQueue());
 
+        MyLinkedQueue<String> stringMyLinkedQueue = new MyLinkedQueue<>();
+        stringMyLinkedQueue.add("A");
+        stringMyLinkedQueue.add("B");
+        stringMyLinkedQueue.add("C");
+
+        System.out.println(stringMyLinkedQueue.poll());
+        System.out.println(stringMyLinkedQueue.poll());
+        System.out.println(stringMyLinkedQueue.poll());
+
+
     }
 
 
